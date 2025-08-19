@@ -1,0 +1,11 @@
+{
+  "name": "firebase-auth-proxy",
+  "main": "dist/index.js",
+  "compatibility_date": "2025-08-19",
+  "routes": [
+    {
+      "pattern": "my.toebeans.life/__/auth/*",
+      "zone_name": "toebeans.life"
+    }
+  ]
+}
