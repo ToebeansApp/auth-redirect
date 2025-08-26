@@ -4,8 +4,11 @@
   "compatibility_date": "2025-08-19",
   "routes": [
     {
-      "pattern": "auth.toebeans.life/__/auth/*",
+      "pattern": "auth.toebeans.life",
       "zone_name": "toebeans.life"
     }
-  ]
+  ],
+  "observability": {
+    "enabled": true
+  }
 }
